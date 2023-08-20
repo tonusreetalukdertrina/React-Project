@@ -201,19 +201,19 @@ function App() {
         </thead>
         <tbody>
           <tr>
-            <td><b>Min X</b></td>
+            <td><b>Project Name</b></td>
             <td>{FormData.projectname}</td>
           </tr>
           <tr>
-            <td><b>Min X</b></td>
+            <td><b>Project Description</b></td>
             <td>{FormData.projectdes}</td>
           </tr>
           <tr>
-            <td><b>Min X</b></td>
+            <td><b>Client</b></td>
             <td>{FormData.client}</td>
           </tr>
           <tr>
-            <td><b>Min X</b></td>
+            <td><b>Contractor</b></td>
             <td>{FormData.contractor}</td>
           </tr>
           <tr>
