@@ -85,12 +85,12 @@ function App() {
               zValues.push(z);
             }
           });
-          FormData.minX = Math.max(...xValues);
-          FormData.maxX = Math.min(...xValues);
-          FormData.minY = Math.max(...yValues);
-          FormData.maxY = Math.min(...yValues);
-          FormData.minZ = Math.max(...zValues);
-          FormData.maxZ = Math.min(...zValues);
+          FormData.minX = Math.min(...xValues);
+          FormData.maxX = Math.max(...xValues);
+          FormData.minY = Math.min(...yValues);
+          FormData.maxY = Math.max(...yValues);
+          FormData.minZ = Math.min(...zValues);
+          FormData.maxZ = Math.max(...zValues);
 
         }
       };
