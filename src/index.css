@@ -1,0 +1,97 @@
+.data {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: cover;
+  justify-content: center;
+}
+
+.card {
+width: 85%;
+display: flex;
+background-color: whitesmoke;
+min-height: 600px;
+overflow: hidden;
+}
+  
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 88%;
+}
+ 
+input {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  padding: 20px 10px;
+}
+
+button {
+width: 50%;
+padding: 10px;
+border: none;
+background-color: rgb(48, 70, 90);
+color: white;
+font-weight: bold;
+cursor: pointer;
+align-content: center;
+gap: 10px;
+}
+
+h1{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+table td, #table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table tr{
+  text-align: center;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #02244b;
+  color: white;
+  border-collapse: separate;
+}
+
+h2{
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  font-size: 55px;
+}
+
+.button1{
+width: 10%;
+padding: 10px;
+border: none;
+color: white;
+font-weight: bold;
+cursor: pointer;
+align-content: center;
+}
+
+.plot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
